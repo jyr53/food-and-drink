@@ -9,8 +9,20 @@
 .teal{
     background-color: #008585;
 }
-.essaie{
-    height: 10vh;
+.bordeau{
+    background-color: #651313;
+
+
+}
+.green{
+    background-color: #7ae582;
+}
+
+.modalMenu{
+
     font-size: 2rem;
     color :#EDE4E2;
 }
+ul {
+    list-style-type: none;
+  }

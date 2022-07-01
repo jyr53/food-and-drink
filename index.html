@@ -33,11 +33,11 @@
             </div>
         </div>
     </nav>
-   <!-- Button trigger modal -->
- 
+   <!-- bouton menu du jour -->
+<section class="Mjour">
     <button type="button" class="btn teal container-fluid" data-bs-toggle="modal" data-bs-target="#menu_du_jour">
     
-      <div class="essaie teal">Menu du jour</div>
+      <div class="modalMenu teal">Menu du jour</div>
 
     </button>
 
@@ -66,8 +66,78 @@
       </div>
     </div>
   </div>
-   
+</section> 
+  <!-- bouton menu  dégustation-->
+  <section class="Mdegustation">
+    <button type="button" class="btn bordeau container-fluid" data-bs-toggle="modal" data-bs-target="#menu_degustation">
+    
+      <div class="modalMenu bordeau">Menu Dégustation</div>
+  
+    </button>
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="menu_degustation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Menu Dégustation</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <ul>
+          <li>terrine de foie gras</li>
+          <li>ou</li>
+          <li>truite fumé<em></em></li>
+          <li>Carré de veau et ces légumes</li>
+          <li>ou</li>
+          <li>coulibiac de saumon</li>
+          <li>tarte fine aux poires</li>
+  
+        </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn bordeau" data-bs-dismiss="modal">Close</button>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  </section> 
+  <!-- bouton menu  gastronomique-->
+<section class="Mgastronomique">
+  <button type="button" class="btn green container-fluid" data-bs-toggle="modal" data-bs-target="#menu_gastronomique">
+  
+    <div class="modalMenu green">Menu gastronomique</div>
 
+  </button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="menu_gastronomique" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Menu gastronomique</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <ul>
+      
+        <li>Foie-gras mi-cuit au sichuan</li>
+        <li>Turbot rôti au ras el-hanout, chou-fleur et choux de bruxelles</li>
+        <li>Agrumes – crème diplomate au citron, pesto à l’estragon</li>
+
+      </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn green" data-bs-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+</section> 
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
