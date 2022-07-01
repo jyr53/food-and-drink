@@ -45,3 +45,20 @@ ul {
 .commu{
     width: 200px;
 }
+
+.reference{
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.trip{
+    background-image: url(./Images/trip.PNG);
+}
+.mich{
+    background-image: url(./Images/Mich.PNG)
+}
+.gault{
+    background-image: url(./Images/Gault.PNG);
+}
+
