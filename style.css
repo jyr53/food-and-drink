@@ -5,14 +5,12 @@
 .darkGrey{
     background-color: #332D2B;
 }
-.essaie{
+
+.teal{
     background-color: #008585;
+}
+.essaie{
     height: 10vh;
-    width: 100vw;
     font-size: 2rem;
     color :#EDE4E2;
-}
-.btn
-{
-    background-color: #332D2B;
 }
