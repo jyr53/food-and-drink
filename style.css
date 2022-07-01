@@ -30,8 +30,6 @@ ul {
     list-style-type: none;
   }
 
-=======
->>>>>>> de775f7a1359e031c160b2c54c348e2e031c23a8
 
 .logo{
     height: 64px;
@@ -45,6 +43,5 @@ ul {
 }
 
 .commu{
-    height:100px;
-    width: 100px;
+    width: 200px;
 }
