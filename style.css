@@ -5,26 +5,29 @@ body{
     background-color: #EDE4E2;
 }
 
-.darkGrey{
+.primaryColor, .primaryColor:hover{
     background-color: #332D2B;
 }
 
-.teal{
+.secondaryColor, .secondaryColor:hover{
     background-color: #008585;
 }
-.bordeau{
+.thirdColor, .thirdColor:hover{
     background-color: #651313;
 
 
 }
-.green{
+.forthColor, .forthColor:hover{
     background-color: #7ae582;
+}
+
+.titlesColor{
+    color :#EDE4E2;
 }
 
 .modalMenu{
 
     font-size: 2rem;
-    color :#EDE4E2;
 }
 ul {
     list-style-type: none;
