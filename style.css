@@ -29,11 +29,18 @@ body{
 ul {
     list-style-type: none;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> de775f7a1359e031c160b2c54c348e2e031c23a8
 
 .logo{
     height: 64px;
     width: 64px;
     background-image: url(./Images/food-and-drink.svg);
     background-size: contain;
+}
+
+.margin{
+    margin-bottom: 2vh;
 }

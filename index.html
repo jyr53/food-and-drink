@@ -10,36 +10,25 @@
 </head>
 <body>
 
-  <nav class="navbar darkGrey">
-      <div class="">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar sticky-top darkGrey margin">
+        <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nos producteurs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nos References</a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-      <h1 class="">Food and drink</h1>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Nos menus</a></li>
+          <li><a class="dropdown-item" href="#">Nous contactez</a></li>
+          <li><a class="dropdown-item" href="#">Nos fournisseurs</a></li>
+          <li><a class="dropdown-item" href="#">Nos réferences</a></li>
+        </ul>
+      <h1 class="modalMenu">Food and drink</h1>
       <div class="logo"></div>
   </nav>
+
+  <h2 class="text-center h5 margin">Spicy jalapeno bacon ipsum dolor amet short loin picanha ut in. Irure in ground round dolore non excepteur filet mignon.</h2>
     
    <!-- Button trigger modal -->   
       <!-- bouton menu du jour -->
-<section class="Mjour">
+<section class="Mjour margin ">
  
     <button type="button" class="btn teal container-fluid" data-bs-toggle="modal" data-bs-target="#menu_du_jour">
     
@@ -74,7 +63,7 @@
   </div>
 </section> 
   <!-- bouton menu  dégustation-->
-  <section class="Mdegustation">
+  <section class="Mdegustation margin">
     <button type="button" class="btn bordeau container-fluid" data-bs-toggle="modal" data-bs-target="#menu_degustation">
     
       <div class="modalMenu bordeau">Menu Dégustation</div>
@@ -111,7 +100,7 @@
   </div>
   </section> 
   <!-- bouton menu  gastronomique-->
-<section class="Mgastronomique">
+<section class="Mgastronomique margin">
   <button type="button" class="btn green container-fluid" data-bs-toggle="modal" data-bs-target="#menu_gastronomique">
   
     <div class="modalMenu green">Menu gastronomique</div>
