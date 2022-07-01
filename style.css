@@ -1,4 +1,7 @@
 *{
+
+}
+body{
     background-color: #EDE4E2;
 }
 
@@ -10,7 +13,13 @@
     background-color: #008585;
 }
 .essaie{
-    height: 10vh;
     font-size: 2rem;
     color :#EDE4E2;
+}
+
+.logo{
+    height: 64px;
+    width: 64px;
+    background-image: url(./Images/food-and-drink.svg);
+    background-size: contain;
 }
