@@ -29,7 +29,6 @@ body{
 ul {
     list-style-type: none;
   }
-<<<<<<< HEAD
 
 =======
 >>>>>>> de775f7a1359e031c160b2c54c348e2e031c23a8
@@ -43,4 +42,9 @@ ul {
 
 .margin{
     margin-bottom: 2vh;
+}
+
+.commu{
+    height:100px;
+    width: 100px;
 }
