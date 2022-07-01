@@ -29,14 +29,14 @@ body{
 ul {
     list-style-type: none;
   }
-.essaie{
-    font-size: 2rem;
-    color :#EDE4E2;
-}
 
 .logo{
     height: 64px;
     width: 64px;
     background-image: url(./Images/food-and-drink.svg);
     background-size: contain;
+}
+
+.margin{
+    margin-bottom: 2vh;
 }
