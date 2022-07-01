@@ -3,4 +3,4 @@
 
 ## Pourquoi ce site ?
 
-ce site a été concue pour répondre au besoin du client pour son entreprise Food and Drink, il permet de consulter les menus disponible, de contacter l'entreprise ou bien prendre connaisance des fourniseur locaux.
+Ce site a été concue pour répondre au besoin du client pour son entreprise Food and Drink, il permet de consulter les menus disponible, de contacter l'entreprise ou bien prendre connaisance des fourniseur locaux.
