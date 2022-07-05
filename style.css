@@ -77,3 +77,7 @@ ul {
   .box1{
     box-shadow: 10px 5px 5px var(--primary-color);
    padding:10px;}    
+
+   .modalShadow{
+       box-shadow: 0 5px 5px var(--primary-color);
+   }

@@ -14,11 +14,11 @@
         <button class="btn custom-toggler" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#menu">Nos menus</a></li>
-          <li><a class="dropdown-item" href="#contact">Nous contactez</a></li>
-          <li><a class="dropdown-item" href="#contributor">Nos fournisseurs</a></li>
-          <li><a class="dropdown-item" href="#carouselExampleControls">Nos réferences</a></li>
+        <ul class="dropdown-menu primaryColor" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item primaryColor titlesColor" href="#menu">Nos menus</a></li>
+          <li><a class="dropdown-item primaryColor titlesColor" href="#contact">Nous contactez</a></li>
+          <li><a class="dropdown-item primaryColor titlesColor" href="#contributor">Nos fournisseurs</a></li>
+          <li><a class="dropdown-item primaryColor titlesColor" href="#carouselExampleControls">Nos réferences</a></li>
         </ul>
       <h1 class="h4 titlesColor">Food and drink</h1>
       <a href="#top">
@@ -30,7 +30,7 @@
     
    <!-- Button trigger modal -->   
       <!-- bouton menu du jour -->
-<section class="Mjour margin secondaryColor">
+<section class="modalShadow margin secondaryColor">
  
     <button type="button" class="btn secondaryColor container-fluid" data-bs-toggle="modal" data-bs-target="#menu_du_jour">
     
@@ -66,7 +66,7 @@
   </div>
 </section> 
   <!-- bouton menu  dégustation-->
-  <section class="Mdegustation margin thirdColor">
+  <section class="modalShadow margin thirdColor">
     <button type="button" class="btn thirdColor container-fluid" data-bs-toggle="modal" data-bs-target="#menu_degustation">
     
       <div class="modalMenu menuTitlesColor thirdColor">Menu Dégustation</div>
@@ -104,7 +104,7 @@
   </div>
   </section> 
   <!-- bouton menu  gastronomique-->
-<section class="Mgastronomique margin forthColor" id="contact">
+<section class="modalShadow margin forthColor" id="contact">
   <button type="button" class="btn forthColor container-fluid" data-bs-toggle="modal" data-bs-target="#menu_gastronomique">
   
     <div class="modalMenu menuTitlesColor forthColor">Menu gastronomique</div>
@@ -140,23 +140,23 @@
 <section class=" justify-content-around align-items-center container-fluid d-flex flex-wrap">
   <div >
       <ul class="secondarycolor box1 ">
-        <li>adresse->3 Rue de la Chalotais, 35000 Rennes</li>
-        <li>telephone->02 33 45 20 56</li>
-        <li>mail->food-and-drink@gmail.com</li>
-        <li>Horaires du lundi au samedi</li>
-        <li>le midi de 12h a 14h</li>
-        <li>le soir de 19h a 22h</li>
+        <li class="menuTitlesColor">adresse->3 Rue de la Chalotais, 35000 Rennes</li>
+        <li class="menuTitlesColor">telephone->02 33 45 20 56</li>
+        <li class="menuTitlesColor">mail->food-and-drink@gmail.com</li>
+        <li class="menuTitlesColor">Horaires du lundi au samedi</li>
+        <li class="menuTitlesColor">le midi de 12h a 14h</li>
+        <li class="menuTitlesColor">le soir de 19h a 22h</li>
       </ul>
   </div>
     <div >
       <fieldset>
       <form class="d-flex flex-wrap flex-column" action="#" method="post">
-          <label for="comm">Laisser un message</label>
-          <input type="text" name="name" id="namr"placeholder="nom">
-          <input type="email" name="mail" id="mail"placeholder="monsieur.brandon@gmail.com"> 
-          <textarea name="commu" id="commu" cols="50" rows="4">
+          <label class="m-1" for="comm">Laisser un message</label>
+          <input class="m-1" type="text" name="name" id="namr"placeholder="nom">
+          <input class="m-1" type="email" name="mail" id="mail"placeholder="monsieur.brandon@gmail.com"> 
+          <textarea class="m-1" name="commu" id="commu" cols="50" rows="4">
         </textarea>
-          <button type="submit">envoyer message</button>
+          <button class="m-1" type="submit">envoyer message</button>
       </form>
       </fieldset>
     </div>
