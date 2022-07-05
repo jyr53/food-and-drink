@@ -1,8 +1,8 @@
 *{
---primary-color:#332D2B;
+--primary-color:#4f3b2b;
 }
 body{
-    background-color: #EDE4E2;
+    background-color: #dddddd;
 }
 
 .primaryColor, .primaryColor:hover{
@@ -10,19 +10,23 @@ body{
 }
 
 .secondaryColor, .secondaryColor:hover{
-    background-color: #008585;
+    background-color: #7C6619;
 }
 .thirdColor, .thirdColor:hover{
-    background-color: #651313;
+    background-color: #be0309;
 
 
 }
 .forthColor, .forthColor:hover{
-    background-color: #7ae582;
+    background-color: #93c1d5;
 }
 
 .titlesColor{
-    color :#EDE4E2;
+    color :#ffffff;
+}
+
+.menuTitlesColor{
+    color:#161616;
 }
 
 .modalMenu{
