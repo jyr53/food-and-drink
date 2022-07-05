@@ -65,3 +65,7 @@ ul {
     background-image: url(./Images/Gault.PNG);
 }
 
+.navbar-toggler-icon{
+    border-color:white;
+
+}
