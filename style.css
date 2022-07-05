@@ -55,6 +55,8 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
 .trip{
     background-image: url(./Images/trip.PNG);
 }
@@ -65,3 +67,7 @@ ul {
     background-image: url(./Images/Gault.PNG);
 }
 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("./Images/icons8-menu.svg");
+  }
+  
