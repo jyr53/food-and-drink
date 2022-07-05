@@ -2,27 +2,34 @@
 
 }
 body{
-    background-color: #EDE4E2;
+    background-image: url(./Images/fond-restaurant-flou-boutique-interieur_1203-4031.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .primaryColor, .primaryColor:hover{
-    background-color: #332D2B;
+    background-color: #4f3b2b;
 }
 
 .secondaryColor, .secondaryColor:hover{
-    background-color: #008585;
+    background-color: #7C6619;
 }
 .thirdColor, .thirdColor:hover{
-    background-color: #651313;
+    background-color: #be0309;
 
 
 }
 .forthColor, .forthColor:hover{
-    background-color: #7ae582;
+    background-color: #93c1d5;
 }
 
 .titlesColor{
-    color :#EDE4E2;
+    color :#ffffff;
+}
+
+.menuTitlesColor{
+    color:#161616;
 }
 
 .modalMenu{
