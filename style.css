@@ -1,12 +1,12 @@
 *{
-
+--primary-color:#332D2B;
 }
 body{
     background-color: #EDE4E2;
 }
 
 .primaryColor, .primaryColor:hover{
-    background-color: #332D2B;
+    background-color: var(--primary-color);
 }
 
 .secondaryColor, .secondaryColor:hover{
@@ -55,6 +55,8 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
 .trip{
     background-image: url(./Images/trip.PNG);
 }
@@ -64,3 +66,10 @@ ul {
 .gault{
     background-image: url(./Images/Gault.PNG);
 }
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("./Images/icons8-menu.svg");
+  }
+  .box1{
+    box-shadow: 10px 5px 5px var(--primary-color);
+   padding:10px;}    
